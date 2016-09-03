@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+pragmatickm-task-all - Convenience POM to include most tasks nested within SemanticCMS pages and elements features, not including documentation or examples.
+Copyright (C) 2016  AO Industries, Inc.
+    support@aoindustries.com
+    7262 Bull Pen Cir
+    Mobile, AL 36695
+
+This file is part of pragmatickm-task-all.
+
+pragmatickm-task-all is non-exclusive, non-transferable, non-redistributable.
+
+pragmatickm-task-all is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<prerequisites>
+		<!-- 3.3.1 required for extensions.xml -->
+		<maven>3.3.1</maven>
+	</prerequisites>
+
+	<parent>
+		<groupId>com.pragmatickm</groupId>
+		<artifactId>pragmatickm-task</artifactId>
+		<version>1.2-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.pragmatickm</groupId>
+	<artifactId>pragmatickm-task-all</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>PragmaticKM Task All</name>
+	<url>https://pragmatickm.com/docs/pragmatickm-task-all/</url>
+	<description>Convenience POM to include most tasks nested within SemanticCMS pages and elements features, not including documentation or examples.</description>
+
+	<scm>
+		<!--
+		<connection>scm:git:git://github.com/aoindustries/pragmatickm-task-all.git</connection>
+		-->
+		<developerConnection>scm:git:ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-all</developerConnection>
+		<!--
+		<url>http://github.com/aoindustries/pragmatickm-task-all</url>
+		-->
+		<tag>HEAD</tag>
+	</scm>
+
+	<repositories>
+		<repository>
+			<id>pragmatickm-repository</id>
+			<url>scpexe://private.cvs.aoindustries.com/var/maven2/pragmatickm</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.pragmatickm</groupId>
+			<artifactId>pragmatickm-task-model</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.pragmatickm</groupId>
+			<artifactId>pragmatickm-task-servlet</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.pragmatickm</groupId>
+			<artifactId>pragmatickm-task-style</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.pragmatickm</groupId>
+			<artifactId>pragmatickm-task-taglib</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.pragmatickm</groupId>
+			<artifactId>pragmatickm-task-view</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
