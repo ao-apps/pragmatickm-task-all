@@ -36,6 +36,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	<name>PragmaticKM Task All</name>
 	<url>https://pragmatickm.com/task/all/</url>
 	<description>Convenience POM to include most tasks nested within SemanticCMS pages and elements features, not including documentation or examples.</description>
+	<inceptionYear>2016</inceptionYear>
 
 	<scm>
 		<!--
