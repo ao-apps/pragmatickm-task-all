@@ -25,7 +25,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	<parent>
 		<groupId>com.pragmatickm</groupId>
 		<artifactId>pragmatickm-task</artifactId>
-		<version>1.4.1-SNAPSHOT</version>
+		<version>1.4.1</version>
 	</parent>
 
 	<groupId>com.pragmatickm</groupId>
@@ -67,27 +67,27 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-task-model</artifactId>
-			<version>1.3.1-SNAPSHOT</version>
+			<version>1.3.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-task-servlet</artifactId>
-			<version>1.3.1-SNAPSHOT</version>
+			<version>1.3.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-task-style</artifactId>
-			<version>1.3.1-SNAPSHOT</version>
+			<version>1.3.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-task-taglib</artifactId>
-			<version>1.3.1-SNAPSHOT</version>
+			<version>1.3.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-task-view</artifactId>
-			<version>1.3.1-SNAPSHOT</version>
+			<version>1.3.1</version>
 		</dependency>
 	</dependencies>
 </project>
