@@ -4,8 +4,8 @@ Convenience POM to include most [PragmaticKM Task](https://pragmatickm.com/task/
 ## Project Links
 * [Project Home](https://pragmatickm.com/task/all/)
 * [Changelog](https://pragmatickm.com/task/all/changelog)
-* [Maven Repository](scpexe://private.cvs.aoindustries.com/var/maven2/pragmatickm)
-* [Git](ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-all)
+* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.pragmatickm%22%20AND%20a:%22pragmatickm-task-all%22)
+* [GitHub](https://github.com/aoindustries/pragmatickm-task-all)
 
 ## Modules Included
 * [PragmaticKM Task Model](https://pragmatickm.com/task/model/)
