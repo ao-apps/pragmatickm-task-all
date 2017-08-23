@@ -35,7 +35,7 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 		description="@{documented.description}"
 		datePublished="2017-07-25T16:09:02-0500"
 	>
-		<core:child page="changelog.jspx" />
+		<core:child page="changelog" />
 		<ao:include
 			page="/ao-badges/badges.inc.jspx"
 			arg.projectStatus="${currentPage.property.projectStatus}"
@@ -47,23 +47,23 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 			arg.license="${currentPage.property.license}"
 		/>
 		<p>
-			Convenience POM to include most <core:link book="/task" page="/index.jspx" /> features, not including documentation or examples.
+			Convenience POM to include most <core:link book="/task" page="/" /> features, not including documentation or examples.
 		</p>
 		<section:section label="Project Links">
 			<ul>
-				<li><core:link page="index.jspx">Project Home</core:link></li>
-				<li><core:link page="changelog.jspx">Changelog</core:link></li>
+				<li><core:link page="/">Project Home</core:link></li>
+				<li><core:link page="changelog">Changelog</core:link></li>
 				<li><ao:a href="https://search.maven.org/#search%7Cgav%7C1%7Cg:%22@{documented.groupId}%22%20AND%20a:%22@{documented.artifactId}%22">Maven Central Repository</ao:a></li>
 				<li><ao:a href="@{documented.scm.url}">GitHub</ao:a></li>
 			</ul>
 		</section:section>
 		<section:section label="Modules Included">
 			<ul>
-				<li><core:link book="/task/model" page="/index.jspx" /></li>
-				<li><core:link book="/task/servlet" page="/index.jspx" /></li>
-				<li><core:link book="/task/style" page="/index.jspx" /></li>
-				<li><core:link book="/task/taglib" page="/index.jspx" /></li>
-				<li><core:link book="/task/view" page="/index.jspx" /></li>
+				<li><core:link book="/task/model" page="/" /></li>
+				<li><core:link book="/task/servlet" page="/" /></li>
+				<li><core:link book="/task/style" page="/" /></li>
+				<li><core:link book="/task/taglib" page="/" /></li>
+				<li><core:link book="/task/view" page="/" /></li>
 			</ul>
 		</section:section>
 	</core:page>

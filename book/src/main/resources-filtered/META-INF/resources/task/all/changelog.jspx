@@ -54,10 +54,10 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 				scmUrl="@{documented.scm.url}"
 			>
 				<ul>
-					<li>Updated version of <core:link book="/task/model" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/task/servlet" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/task/taglib" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/task/view" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/task/model" page="/" />.</li>
+					<li>Updated version of <core:link book="/task/servlet" page="/" />.</li>
+					<li>Updated version of <core:link book="/task/taglib" page="/" />.</li>
+					<li>Updated version of <core:link book="/task/view" page="/" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
