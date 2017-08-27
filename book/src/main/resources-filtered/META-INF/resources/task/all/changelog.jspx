@@ -59,7 +59,7 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 					<li>Updated version of <core:link book="/task/style" page="/" />.</li>
 					<li>Updated version of <core:link book="/task/taglib" page="/" />.</li>
 					<li>Updated version of <core:link book="/task/view" page="/" />.</li>
-					<li>New module <core:link book="/procedure/renderer/html" page="/" />.</li>
+					<li>New module <core:link book="/task/renderer/html" page="/" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
