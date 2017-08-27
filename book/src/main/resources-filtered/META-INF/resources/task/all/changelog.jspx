@@ -37,7 +37,7 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T16:09:02-0500"
-		dateModified="2017-08-01T13:20:29-0500"
+		dateModified="2017-08-27T16:40:09-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-task-all:pom.version}" />
@@ -56,8 +56,10 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 				<ul>
 					<li>Updated version of <core:link book="/task/model" page="/" />.</li>
 					<li>Updated version of <core:link book="/task/servlet" page="/" />.</li>
+					<li>Updated version of <core:link book="/task/style" page="/" />.</li>
 					<li>Updated version of <core:link book="/task/taglib" page="/" />.</li>
 					<li>Updated version of <core:link book="/task/view" page="/" />.</li>
+					<li>New module <core:link book="/procedure/renderer/html" page="/" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>

@@ -34,6 +34,7 @@ Convenience POM to include most [PragmaticKM Task](https://pragmatickm.com/task/
 
 ## Modules Included
 * [PragmaticKM Task Model](https://pragmatickm.com/task/model/)
+* [PragmaticKM Task Renderer HTML](https://pragmatickm.com/task/renderer/html/)
 * [PragmaticKM Task Servlet](https://pragmatickm.com/task/servlet/)
 * [PragmaticKM Task Style](https://pragmatickm.com/task/style/)
 * [PragmaticKM Task Taglib](https://pragmatickm.com/task/taglib/)

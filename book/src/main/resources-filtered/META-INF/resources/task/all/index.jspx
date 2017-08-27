@@ -34,6 +34,7 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2017-07-25T16:09:02-0500"
+		dateModified="2017-08-26T01:56:54-0500"
 	>
 		<core:child page="changelog" />
 		<ao:include
@@ -60,6 +61,7 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 		<section:section label="Modules Included">
 			<ul>
 				<li><core:link book="/task/model" page="/" /></li>
+				<li><core:link book="/task/renderer/html" page="/" /></li>
 				<li><core:link book="/task/servlet" page="/" /></li>
 				<li><core:link book="/task/style" page="/" /></li>
 				<li><core:link book="/task/taglib" page="/" /></li>
