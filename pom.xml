@@ -25,15 +25,11 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.pragmatickm</groupId>
-		<artifactId>pragmatickm-parent</artifactId>
-		<version>1.0.2</version>
+		<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-parent</artifactId><version>1.0.2</version>
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.pragmatickm</groupId>
-	<artifactId>pragmatickm-task-all</artifactId>
-	<version>1.2.5-SNAPSHOT</version>
+	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.2.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>PragmaticKM 1 Task All</name>
@@ -51,29 +47,19 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 
 	<dependencies>
 		<dependency>
-			<groupId>com.pragmatickm</groupId>
-			<artifactId>pragmatickm-task-model</artifactId>
-			<version>1.3.4</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-model</artifactId><version>1.3.4</version>
 		</dependency>
 		<dependency>
-			<groupId>com.pragmatickm</groupId>
-			<artifactId>pragmatickm-task-servlet</artifactId>
-			<version>1.3.4</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-servlet</artifactId><version>1.3.4</version>
 		</dependency>
 		<dependency>
-			<groupId>com.pragmatickm</groupId>
-			<artifactId>pragmatickm-task-style</artifactId>
-			<version>1.3.4</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-style</artifactId><version>1.3.4</version>
 		</dependency>
 		<dependency>
-			<groupId>com.pragmatickm</groupId>
-			<artifactId>pragmatickm-task-taglib</artifactId>
-			<version>1.3.5-SNAPSHOT</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-taglib</artifactId><version>1.3.5-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.pragmatickm</groupId>
-			<artifactId>pragmatickm-task-view</artifactId>
-			<version>1.3.4</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-view</artifactId><version>1.3.4</version>
 		</dependency>
 	</dependencies>
 </project>
