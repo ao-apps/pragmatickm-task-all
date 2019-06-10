@@ -46,7 +46,6 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 	</scm>
 
 	<dependencyManagement>
-		<!-- TODO: pragmatickm-task-bom -->
 		<dependencies>
 			<dependency>
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-model</artifactId><version>1.3.5-SNAPSHOT</version>
