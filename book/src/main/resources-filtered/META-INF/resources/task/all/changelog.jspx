@@ -36,7 +36,7 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T16:09:02-0500"
-		dateModified="2019-06-24T01:54:13-0500"
+		dateModified="2019-07-22T20:35:08-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-task-all:pom.version}" />
@@ -51,7 +51,11 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Rebuild for breaking change in <code>CalendarUtils</code>.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
