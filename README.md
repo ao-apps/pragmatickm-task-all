@@ -29,7 +29,7 @@ Convenience POM to include most [PragmaticKM Task](https://github.com/aoindustri
 ## Project Links
 * [Project Home](https://pragmatickm.com/task/all/)
 * [Changelog](https://pragmatickm.com/task/all/changelog)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.pragmatickm%22%20AND%20a:%22pragmatickm-task-all%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.pragmatickm/pragmatickm-task-all)
 * [GitHub](https://github.com/aoindustries/pragmatickm-task-all)
 
 ## Modules Included
