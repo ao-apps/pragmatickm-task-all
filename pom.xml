@@ -30,7 +30,11 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 	</parent>
 
 	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.7.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>bundle</packaging>
+
+	<properties>
+		<module.name>com.pragmatickm.task.all</module.name>
+	</properties>
 
 	<name>PragmaticKM Task All</name>
 	<url>https://pragmatickm.com/task/all/</url>
@@ -71,6 +75,24 @@ along with pragmatickm-task-all.  If not, see <http://www.gnu.org/licenses />.
 		<system>GitHub Issues</system>
 		<url>https://github.com/aoindustries/pragmatickm-task-all/issues</url>
 	</issueManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<usedDependencies>
+						<!-- Direct -->
+						<dependency>com.pragmatickm:pragmatickm-task-servlet</dependency><!-- Required for module-info.java -->
+						<dependency>com.pragmatickm:pragmatickm-task-taglib</dependency><!-- Required for module-info.java -->
+						<!-- Runtime Direct -->
+						<dependency>com.pragmatickm:pragmatickm-task-style</dependency>
+						<dependency>com.pragmatickm:pragmatickm-task-view</dependency>
+					</usedDependencies>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 	<dependencyManagement>
 		<dependencies>
