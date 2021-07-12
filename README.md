@@ -8,6 +8,8 @@
 [![semantic versioning: 2.0.0](https://pragmatickm.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://pragmatickm.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
+[![Build](https://github.com/aoindustries/pragmatickm-task-all/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/pragmatickm-task-all/actions?query=workflow%3ABuild)
+
 Convenience POM to include most [PragmaticKM Task](https://github.com/aoindustries/pragmatickm-task) features, not including documentation or examples.
 
 ## Project Links
