@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [PragmaticKM](https://github.com/aoindustries/pragmatickm) / [Task](https://github.com/aoindustries/pragmatickm-task) / [All](https://github.com/aoindustries/pragmatickm-task-all)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [PragmaticKM](https://github.com/ao-apps/pragmatickm) / [Task](https://github.com/ao-apps/pragmatickm-task) / [All](https://github.com/ao-apps/pragmatickm-task-all)
 
 [![project: current stable](https://pragmatickm.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
 [![management: production](https://pragmatickm.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
@@ -8,7 +8,7 @@
 [![semantic versioning: 2.0.0](https://pragmatickm.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://pragmatickm.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/aoindustries/pragmatickm-task-all/workflows/Build/badge.svg?branch=1.x)](https://github.com/aoindustries/pragmatickm-task-all/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/pragmatickm-task-all/workflows/Build/badge.svg?branch=1.x)](https://github.com/ao-apps/pragmatickm-task-all/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-task-all/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-task-all)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=alert_status)](https://sonarcloud.io/dashboard?branch=1.x&id=com.pragmatickm%3Apragmatickm-task-all)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=ncloc)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=ncloc)  
@@ -16,20 +16,20 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=security_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=Security)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=Maintainability)
 
-Convenience POM to include most [PragmaticKM Task](https://github.com/aoindustries/pragmatickm-task) features, not including documentation or examples.
+Convenience POM to include most [PragmaticKM Task](https://github.com/ao-apps/pragmatickm-task) features, not including documentation or examples.
 
 ## Project Links
 * [Project Home](https://pragmatickm.com/task/all/)
 * [Changelog](https://pragmatickm.com/task/all/changelog)
 * [Maven Central Repository](https://search.maven.org/artifact/com.pragmatickm/pragmatickm-task-all)
-* [GitHub](https://github.com/aoindustries/pragmatickm-task-all)
+* [GitHub](https://github.com/ao-apps/pragmatickm-task-all)
 
 ## Modules Included
-* [PragmaticKM Task Model](https://github.com/aoindustries/pragmatickm-task-model)
-* [PragmaticKM Task Servlet](https://github.com/aoindustries/pragmatickm-task-servlet)
-* [PragmaticKM Task Style](https://github.com/aoindustries/pragmatickm-task-style)
-* [PragmaticKM Task Taglib](https://github.com/aoindustries/pragmatickm-task-taglib)
-* [PragmaticKM Task View](https://github.com/aoindustries/pragmatickm-task-view)
+* [PragmaticKM Task Model](https://github.com/ao-apps/pragmatickm-task-model)
+* [PragmaticKM Task Servlet](https://github.com/ao-apps/pragmatickm-task-servlet)
+* [PragmaticKM Task Style](https://github.com/ao-apps/pragmatickm-task-style)
+* [PragmaticKM Task Taglib](https://github.com/ao-apps/pragmatickm-task-taglib)
+* [PragmaticKM Task View](https://github.com/ao-apps/pragmatickm-task-view)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
