@@ -25,4 +25,4 @@ module com.pragmatickm.task.all {
   requires transitive com.pragmatickm.task.model; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-model</artifactId>
   requires transitive com.pragmatickm.task.servlet; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-servlet</artifactId>
   requires transitive com.pragmatickm.task.taglib; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-taglib</artifactId>
-}
+} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
