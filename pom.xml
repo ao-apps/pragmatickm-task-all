@@ -112,9 +112,10 @@ along with pragmatickm-task-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.pragmatickm:pragmatickm-task-servlet</dependency><!-- Required for module-info.java -->
-            <dependency>com.pragmatickm:pragmatickm-task-taglib</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.pragmatickm:pragmatickm-task-model</dependency>
+            <dependency>com.pragmatickm:pragmatickm-task-servlet</dependency>
+            <dependency>com.pragmatickm:pragmatickm-task-taglib</dependency>
             <!-- Runtime Direct -->
             <dependency>com.pragmatickm:pragmatickm-task-style</dependency>
             <dependency>com.pragmatickm:pragmatickm-task-view</dependency>
