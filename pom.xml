@@ -30,7 +30,7 @@ along with pragmatickm-task-all.  If not, see <https://www.gnu.org/licenses/>.
   </parent>
 
   <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.7.3-POST-SNAPSHOT</version>
-  <packaging>bundle</packaging>
+  <packaging>jar</packaging>
 
   <properties>
     <module.name>com.pragmatickm.task.all</module.name>
