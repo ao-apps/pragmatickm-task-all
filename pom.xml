@@ -112,9 +112,6 @@ along with pragmatickm-task-all.  If not, see <https://www.gnu.org/licenses/>.
             <dependency>com.pragmatickm:pragmatickm-task-model</dependency>
             <dependency>com.pragmatickm:pragmatickm-task-servlet</dependency>
             <dependency>com.pragmatickm:pragmatickm-task-taglib</dependency>
-            <!-- Runtime Direct -->
-            <dependency>com.pragmatickm:pragmatickm-task-style</dependency>
-            <dependency>com.pragmatickm:pragmatickm-task-view</dependency>
           </usedDependencies>
         </configuration>
       </plugin>
@@ -228,9 +225,9 @@ along with pragmatickm-task-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.aoapps</groupId><artifactId>ao-style</artifactId><version>2.0.1${POST-SNAPSHOT}</version>
       </dependency>
       <!-- javaee-web-api-bom: <groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-impl</artifactId> -->
-      <!-- BOM -->
+      <!-- Imports -->
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.1${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.1-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -256,6 +253,12 @@ along with pragmatickm-task-all.  If not, see <https://www.gnu.org/licenses/>.
     <dependency>
       <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-view</artifactId>
       <scope>runtime</scope>
+    </dependency>
+    <!-- Imports (Reactor build order only) -->
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
     </dependency>
   </dependencies>
 </project>
