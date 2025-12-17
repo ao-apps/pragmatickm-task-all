@@ -8,13 +8,13 @@
 [![semantic versioning: 2.0.0](https://pragmatickm.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://pragmatickm.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/ao-apps/pragmatickm-task-all/actions/workflows/build.yml/badge.svg?branch=1.x)](https://github.com/ao-apps/pragmatickm-task-all/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/pragmatickm-task-all/actions/workflows/build.yml/badge.svg?branch=2.x)](https://github.com/ao-apps/pragmatickm-task-all/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-task-all/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-task-all)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=alert_status)](https://sonarcloud.io/dashboard?branch=1.x&id=com.pragmatickm%3Apragmatickm-task-all)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=ncloc)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=ncloc)  
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=Reliability)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=security_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=Security)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=Maintainability)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=alert_status)](https://sonarcloud.io/dashboard?branch=2.x&id=com.pragmatickm%3Apragmatickm-task-all)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=ncloc)](https://sonarcloud.io/component_measures?branch=2.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=2.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=security_rating)](https://sonarcloud.io/component_measures?branch=2.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.pragmatickm%3Apragmatickm-task-all&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=2.x&id=com.pragmatickm%3Apragmatickm-task-all&metric=Maintainability)
 
 Convenience POM to include most [PragmaticKM Task](https://github.com/ao-apps/pragmatickm-task) features, not including documentation or examples.
 
