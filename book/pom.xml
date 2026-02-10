@@ -29,12 +29,12 @@ along with pragmatickm-task-all.  If not, see <https://www.gnu.org/licenses/>.
     <relativePath>../../../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all-book</artifactId><version>2.0.0-SNAPSHOT</version>
+  <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all-book</artifactId><version>2.0.0</version>
   <packaging>jar</packaging>
 
   <properties>
     <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
-    <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2026-02-10T23:30:05Z</project.build.outputTimestamp>
     <module.name>com.pragmatickm.task.all.book</module.name>
     <subproject.subpath>book/</subproject.subpath>
     <!-- These values are copied from the project being documented -->
@@ -79,7 +79,7 @@ along with pragmatickm-task-all.  If not, see <https://www.gnu.org/licenses/>.
     <connection>scm:git:git://github.com/ao-apps/pragmatickm-task-all.git</connection>
     <developerConnection>scm:git:git@github.com:ao-apps/pragmatickm-task-all.git</developerConnection>
     <url>https://github.com/ao-apps/pragmatickm-task-all</url>
-    <tag>HEAD</tag>
+    <tag>pragmatickm-task-all-book-2.0.0</tag>
   </scm>
 
   <issueManagement>
